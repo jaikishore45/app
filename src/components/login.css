@@ -1,0 +1,239 @@
+body{
+    position:absolutes;
+    width:100%;
+    height:100vh;
+
+    overflow: hidden;
+}
+body .bg{
+    position:absolute;
+    background-image:linear-gradient(rgba(53, 76, 80, 0.6),rgba(38, 41, 54, 0.7)), url('../assets/loginback.jpg');
+    width:100%;
+    height:100%;
+    background-position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    overflow:hidden;
+}
+body .bg .p{
+    color:rgb(148, 203, 240);
+    font-size: 50px;
+    position:absolute;
+    text-align:center;
+    top:30%;
+    right:40%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.form-box
+{
+    width:380px;
+	height:420px;
+	position:relative;
+    top:30px;
+    left:300px;
+	margin:2% auto;
+	background:rgba(55, 72, 77, 0.486);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #83bcddc9;
+	border-radius: 30px;
+    color:white;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:5px;
+	outline:lightblue;
+	position: relative;
+    color:white;
+    text-decoration: none;
+    
+}
+.toggle-btn Link{
+    
+        padding:10px 30px;
+        cursor:pointer;
+        background:transparent;
+        border:5px;
+        outline:lightblue;
+        position: relative;
+        color:white;
+        text-decoration: none;
+    list-style: none
+        
+    }
+
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 240px;
+	height: 100%;
+	background: #6fa6af;
+	border-radius: 30px;
+    box-shadow: lightskyblue;
+    
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+}
+.toggle-btn{
+    text-decoration:none;
+    list-style: none;
+    color:white;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.4s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 3px;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:5;
+	border-bottom: 2px solid rgb(105, 178, 226);
+	outline:rgba(132, 142, 182, 0.7);
+	background: rgb(50, 56, 63);
+    border-radius: 20px;
+   
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #63b2d6;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    list-style: none;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:rgb(255, 255, 255);
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+    color:#fff
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+    color:#fff
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+@media (max-width: 450px)
+{
+    section .bg {
+ 
+        background-image: linear-gradient(rgba(53, 76, 80, 0.6),rgba(38, 41, 54, 0.7)), url('../assets/loginback.jpg');
+        width: 400px;
+        height: 100%;
+        background-position: absolute;
+        background-size: center;
+        background-repeat: no-repeat;
+        position:absolute;
+        overflow: hidden;
+    }
+    .form-box {
+        width: 350px;
+        height: 500px;
+        position: relative;
+        top: 30px;
+        left: 0px;
+        margin: 2% auto;
+        background: rgba(55, 72, 77, 0.486);
+        padding: 5px;
+        overflow: hidden;
+    }
+    body .bg .p {
+		color: rgb(148, 203, 240);
+		font-size: 30px;
+		position: absolute;
+		text-align: center;
+		top: 3%;
+		right: -19%;
+		transform: translate(-50%,-50%);
+	}
+    section .bg a{
+        display: none;
+    }
+}
+@media (max-width: 786px){
+	section .bg {
+ 
+        background-image: linear-gradient(rgba(53, 76, 80, 0.6),rgba(38, 41, 54, 0.7)), url('../assets/loginback.jpg');
+        width: 400px;
+        height: 100%;
+        background-position: absolute;
+        background-size: center;
+        background-repeat: no-repeat;
+        position:absolute;
+        overflow: hidden;
+    }
+    .form-box {
+        width: 350px;
+        height: 420px;
+        position: relative;
+        top: 30px;
+        left: 0px;
+        margin: 2% auto;
+        background: rgba(55, 72, 77, 0.486);
+        padding: 5px;
+        overflow: hidden;
+    }
+    body .bg .p {
+		color: rgb(148, 203, 240);
+		font-size: 30px;
+		position: absolute;
+		text-align: center;
+		top: 3%;
+		
+		transform: translate(-50%,-50%);
+	}
+    section .bg a{
+        display: none;
+    }
+
+}
